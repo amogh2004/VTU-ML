@@ -1,0 +1,84 @@
+Number of records: 14
+best:wind
+tree{'wind': {}}
+val:weak
+newdata:[['sunny', 'hot', 'high', 'no'], ['overcast', 'hot', 'high', 'yes'], ['rainy', 'mild', 'high', 'yes'], ['rainy', 'cool', 'normal', 'yes'], ['sunny', 'mild', 'high', 'no'], ['sunny', 'cool', 'normal', 'yes'], ['rainy', 'mild', 'normal', 'yes'], ['overcast', 'hot', 'normal', 'yes']]
+best:humidity
+tree{'humidity': {}}
+val:high
+newdata:[['sunny', 'hot', 'no'], ['overcast', 'hot', 'yes'], ['rainy', 'mild', 'yes'], ['sunny', 'mild', 'no']]
+best:temperature
+tree{'temperature': {}}
+val:hot
+newdata:[['sunny', 'no'], ['overcast', 'yes']]
+best:outlook
+tree{'outlook': {}}
+val:sunny
+newdata:[['no']]
+val:overcast
+newdata:[['yes']]
+val:mild
+newdata:[['rainy', 'yes'], ['sunny', 'no']]
+best:outlook
+tree{'outlook': {}}
+val:rainy
+newdata:[['yes']]
+val:sunny
+newdata:[['no']]
+val:normal
+newdata:[['rainy', 'cool', 'yes'], ['sunny', 'cool', 'yes'], ['rainy', 'mild', 'yes'], ['overcast', 'hot', 'yes']]
+val:strong
+newdata:[['sunny', 'hot', 'high', 'no'], ['rainy', 'cool', 'normal', 'no'], ['overcast', 'cool', 'normal', 'yes'], ['sunny', 'mild', 'normal', 'yes'], ['overcast', 'mild', 'high', 'yes'], ['rainy', 'mild', 'high', 'no']]
+best:humidity
+tree{'humidity': {}}
+val:high
+newdata:[['sunny', 'hot', 'no'], ['overcast', 'mild', 'yes'], ['rainy', 'mild', 'no']]
+best:outlook
+tree{'outlook': {}}
+val:sunny
+newdata:[['hot', 'no']]
+val:overcast
+newdata:[['mild', 'yes']]
+val:rainy
+newdata:[['mild', 'no']]
+val:normal
+newdata:[['rainy', 'cool', 'no'], ['overcast', 'cool', 'yes'], ['sunny', 'mild', 'yes']]
+best:outlook
+tree{'outlook': {}}
+val:rainy
+newdata:[['cool', 'no']]
+val:overcast
+newdata:[['cool', 'yes']]
+val:sunny
+newdata:[['mild', 'yes']]
+
+
+{'wind': {'weak': {'humidity': {'high': {'temperature': {'hot': {'outlook': {'sunny': 'no', 'overcast': 'yes'}}, 'mild': {'outlook': {'rainy': 'yes', 'sunny': 'no'}}}}, 'normal': 'yes'}}, 'strong': {'humidity': {'high': {'outlook': {'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}}, 'normal': {'outlook': {'rainy': 'no', 'overcast': 'yes', 'sunny': 'yes'}}}}}}
+
+
+entry:('overcast', 'mild', 'high', 'strong')
+nodeval:wind
+child: dict_keys(['weak', 'strong'])
+tempdict:{'weak': {'humidity': {'high': {'temperature': {'hot': {'outlook': {'sunny': 'no', 'overcast': 'yes'}}, 'mild': {'outlook': {'rainy': 'yes', 'sunny': 'no'}}}}, 'normal': 'yes'}}, 'strong': {'humidity': {'high': {'outlook': {'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}}, 'normal': {'outlook': {'rainy': 'no', 'overcast': 'yes', 'sunny': 'yes'}}}}}
+3
+value:strong
+Yes
+result={'humidity': {'high': {'outlook': {'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}}, 'normal': {'outlook': {'rainy': 'no', 'overcast': 'yes', 'sunny': 'yes'}}}}
+tempdict:{'humidity': {'high': {'outlook': {'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}}, 'normal': {'outlook': {'rainy': 'no', 'overcast': 'yes', 'sunny': 'yes'}}}}
+nodeval:humidity
+child: dict_keys(['high', 'normal'])
+tempdict:{'high': {'outlook': {'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}}, 'normal': {'outlook': {'rainy': 'no', 'overcast': 'yes', 'sunny': 'yes'}}}
+2
+value:high
+Yes
+result={'outlook': {'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}}
+tempdict:{'outlook': {'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}}
+nodeval:outlook
+child: dict_keys(['sunny', 'overcast', 'rainy'])
+tempdict:{'sunny': 'no', 'overcast': 'yes', 'rainy': 'no'}
+0
+value:overcast
+Yes
+result=yes
+tempdict:yes
+yes
