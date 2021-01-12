@@ -10,17 +10,17 @@ data = pd.DataFrame(data=pd.read_csv('2ce.csv'))
 
 # Separating concept features from Target
 concepts = data.iloc[:,0:-1].values
-print("\n\nCONCEPTS:")
-print("-------------------------------------------")
-print(concepts)
-print("-------------------------------------------")
+# print("\n\nCONCEPTS:")
+# print("-------------------------------------------")
+# print(concepts)
+# print("-------------------------------------------")
 
 # Isolating target into a separate DataFrame
 target =data.iloc[:,-1].values
-print("\n\nTARGETS:")
-print("-------------------------------------------")
-print(target)
-print("-------------------------------------------\n\n")
+# print("\n\nTARGETS:")
+# print("-------------------------------------------")
+# print(target)
+# print("-------------------------------------------\n\n")
 
 def learn(concepts, target):
     specific_h = concepts[0].copy()
@@ -41,7 +41,7 @@ def learn(concepts, target):
         # Checking if the hypothesis has a positive target
         if target[i] == "No":
             for x in range(len(specific_h)):
-                print(f"specific = {specific_h[x]}\n")
+                # print(f"specific = {specific_h[x]}\n")
                 # For negative hyposthesis change values only  in G
                 if h[x] != specific_h[x]:
                     general_h[x][x] = specific_h[x]

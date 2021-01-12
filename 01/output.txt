@@ -1,26 +1,3 @@
-DATASET:
-       Sky Airtemp Humidity    Wind Water Forecast WaterSport
-0   Sunny    Warm   Normal  Strong  Warm     Same        Yes
-1   Sunny    Warm     High  Strong  Warm     Same        Yes
-2  Cloudy    Cold     High  Strong  Warm   Change         No
-3   Sunny    Warm     High  Strong  Cool   Change        Yes
-
-
-CONCEPTS:
--------------------------------------------
-[['Sunny' 'Warm' 'Normal' 'Strong' 'Warm' 'Same']
- ['Sunny' 'Warm' 'High' 'Strong' 'Warm' 'Same']
- ['Cloudy' 'Cold' 'High' 'Strong' 'Warm' 'Change']
- ['Sunny' 'Warm' 'High' 'Strong' 'Cool' 'Change']]
--------------------------------------------
-
-
-TARGETS:
--------------------------------------------
-['Yes' 'Yes' 'No' 'Yes']
--------------------------------------------
-
-
 Iteration:  0
 ['Sunny' 'Warm' 'Normal' 'Strong' 'Warm' 'Same']
 Hypothesis after sample number:1 processed: ['Sunny' 'Warm' 'Normal' 'Strong' 'Warm' 'Same']
@@ -35,4 +12,4 @@ Negative sample number:3 Same Hypothesis: ['Sunny' 'Warm' '?' 'Strong' 'Warm' 'S
 
 Iteration:  3
 ['Sunny' 'Warm' 'High' 'Strong' 'Cool' 'Change']
-Hypothesis after sample number:4 processed: ['Sunny' 'Warm' '?' 'Strong' '?' '?'] 
+Hypothesis after sample number:4 processed: ['Sunny' 'Warm' '?' 'Strong' '?' '?']

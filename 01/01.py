@@ -5,19 +5,19 @@ import numpy as np
 import pandas as pd
 
 data = pd.read_csv('1finds.csv')
-print("\nDATASET:\n", data)
+# print("\nDATASET:\n", data)
 
 concepts=data.iloc[:,0:-1].values
-print("\n\nCONCEPTS:")
-print("-------------------------------------------")
-print(concepts)
-print("-------------------------------------------")
+# print("\n\nCONCEPTS:")
+# print("-------------------------------------------")
+# print(concepts)
+# print("-------------------------------------------")
 
 target = data.iloc[:,-1].values
-print("\n\nTARGETS:")
-print("-------------------------------------------")
-print(target)
-print("-------------------------------------------\n\n")
+# print("\n\nTARGETS:")
+# print("-------------------------------------------")
+# print(target)
+# print("-------------------------------------------\n\n")
 
 def train(concepts,target):
     count=0

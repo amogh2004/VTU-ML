@@ -1,30 +1,3 @@
-CONCEPTS:
--------------------------------------------
-[['Sunny' 'Warm' 'Normal' 'Strong' 'Warm' 'Same']
- ['Sunny' 'Warm' 'High' 'Strong' 'Warm' 'Same']
- ['Cloudy' 'Cold' 'High' 'Strong' 'Warm' 'Change']
- ['Sunny' 'Warm' 'High' 'Strong' 'Cool' 'Change']]
--------------------------------------------
-
-
-TARGETS:
--------------------------------------------
-['Yes' 'Yes' 'No' 'Yes']
--------------------------------------------
-
-
-specific = Sunny
-
-specific = Warm
-
-specific = ?
-
-specific = Strong
-
-specific = Warm
-
-specific = Same
-
 Final S:
 ['Sunny' 'Warm' '?' 'Strong' '?' '?']
 Final G:

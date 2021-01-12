@@ -172,22 +172,22 @@ def execute_decision_tree():
         results = []
         test_set = [('overcast','mild','high','strong')]
         for entry in test_set:
-            print(f"entry:{entry}")
+            # print(f"entry:{entry}")
             tempDict = tree.copy()
             #print(tempDict)
             result = ""
             while(isinstance(tempDict, dict)):
                 child=[]
                 nodeVal=next(iter(tempDict))       # Get node names
-                print(f"nodeval:{nodeVal}")
+                # print(f"nodeval:{nodeVal}")
                 child=tempDict[next(iter(tempDict))].keys() #Get attr values
-                print(f"child: {child}")
+                # print(f"child: {child}")
                 tempDict = tempDict[next(iter(tempDict))] # Get the subtree under the node
-                print(f"tempdict:{tempDict}")
+                # print(f"tempdict:{tempDict}")
                 index = attributes.index(nodeVal)  # Get the index of node
-                print(index)
+                # print(index)
                 value = entry[index]  # Get the value from test set at index
-                print(f"value:{value}")
+                # print(f"value:{value}")
 
                 if(value in tempDict.keys()):    # If test value present in subtree
                     result = tempDict[value]
