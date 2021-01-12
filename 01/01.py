@@ -34,7 +34,6 @@ def train(concepts,target):
             count = count + 1
             print (f"Hypothesis after sample number:{count} processed: {specific_h} \n")
         else:
-            pass
             count = count + 1
             print (f"Negative sample number:{count} Same Hypothesis: {specific_h} \n")
 
