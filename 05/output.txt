@@ -1,0 +1,21 @@
+Naive Bayes Classifier for Concept Learning Problem
+
+Split 16 rows into
+Number of Training data: 12
+Number of Test Data: 4
+
+Actual values: [10.0]%
+Predictions: [5.0, 10.0, 10.0, 10.0]%
+Accuracy: 25.0%
+
+Actual values: [10.0, 5.0]%
+Predictions: [5.0, 10.0, 10.0, 10.0]%
+Accuracy: 25.0%
+
+Actual values: [10.0, 5.0, 10.0]%
+Predictions: [5.0, 10.0, 10.0, 10.0]%
+Accuracy: 25.0%
+
+Actual values: [10.0, 5.0, 10.0, 5.0]%
+Predictions: [5.0, 10.0, 10.0, 10.0]%
+Accuracy: 25.0%

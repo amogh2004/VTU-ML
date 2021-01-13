@@ -1,0 +1,26 @@
+>epoch=0, lrate=0.500, error=6.350
+>epoch=1, lrate=0.500, error=5.531
+>epoch=2, lrate=0.500, error=5.221
+>epoch=3, lrate=0.500, error=4.951
+>epoch=4, lrate=0.500, error=4.519
+>epoch=5, lrate=0.500, error=4.173
+>epoch=6, lrate=0.500, error=3.835
+>epoch=7, lrate=0.500, error=3.506
+>epoch=8, lrate=0.500, error=3.192
+>epoch=9, lrate=0.500, error=2.898
+>epoch=10, lrate=0.500, error=2.626
+>epoch=11, lrate=0.500, error=2.377
+>epoch=12, lrate=0.500, error=2.153
+>epoch=13, lrate=0.500, error=1.953
+>epoch=14, lrate=0.500, error=1.774
+>epoch=15, lrate=0.500, error=1.614
+>epoch=16, lrate=0.500, error=1.472
+>epoch=17, lrate=0.500, error=1.346
+>epoch=18, lrate=0.500, error=1.233
+>epoch=19, lrate=0.500, error=1.132
+
+ [{'weights': [-1.4688375095432327, 1.850887325439514, 1.0858178629550297], 'output': 0.029980305604426185, 'delta': -0.0059546604162323625},
+  {'weights': [0.37711098142462157, -0.0625909894552989, 0.2765123702642716], 'output': 0.9456229000211323, 'delta': 0.0026279652850863837}]
+
+ [{'weights': [2.515394649397849, -0.3391927502445985, -0.9671565426390275], 'output': 0.23648794202357587, 'delta': -0.04270059278364587},
+  {'weights': [-2.5584149848484263, 1.0036422106209202, 0.42383086467582715], 'output': 0.7790535202438367, 'delta': 0.03803132596437354}]
