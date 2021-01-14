@@ -1,0 +1,22 @@
+[[5.1 3.5 1.4 0.2]
+ [4.9 3.  1.4 0.2]
+ [4.7 3.2 1.3 0.2]
+ [4.6 3.1 1.5 0.2]
+ [5.  3.6 1.4 0.2]]
+['setosa' 'setosa' 'setosa' 'setosa' 'setosa']
+['virginica' 'versicolor' 'versicolor' 'versicolor' 'versicolor'
+ 'virginica' 'setosa' 'virginica' 'setosa' 'setosa' 'versicolor'
+ 'versicolor' 'setosa' 'virginica' 'versicolor' 'virginica' 'virginica'
+ 'setosa' 'virginica' 'virginica' 'versicolor' 'virginica' 'versicolor'
+ 'versicolor' 'virginica' 'versicolor' 'setosa' 'versicolor' 'virginica'
+ 'setosa']
+Training accuracy Score is :  0.975
+Testing accuracy Score is :  0.9666666666666667
+Training Confusion Matrix is :
+ [[43  0  0]
+ [ 0 37  2]
+ [ 0  1 37]]
+Testing Confusion Matrix is :
+ [[ 7  0  0]
+ [ 0 11  0]
+ [ 0  1 11]]
