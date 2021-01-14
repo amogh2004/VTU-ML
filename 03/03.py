@@ -205,6 +205,5 @@ def execute_decision_tree():
                 results.append(result == entry[-1])
         print(result)
 
-
 if __name__ == "__main__":
     execute_decision_tree()
