@@ -1,0 +1,2 @@
+Split 768 rows into train=514 and test=254 rows
+Accuracy of the classifier is :72.04724409448819%

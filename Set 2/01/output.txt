@@ -1,0 +1,22 @@
+The total number of training instances are :  5
+
+ The initial hypothesis is :
+['0', '0', '0', '0', '0', '0']
+
+ The hypothesis for the training instance 1 is :
+ ['0', '0', '0', '0', '0', '0']
+
+ The hypothesis for the training instance 2 is :
+ ['sunny', 'warm', 'normal', 'strong', 'warm', 'same']
+
+ The hypothesis for the training instance 3 is :
+ ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+
+ The hypothesis for the training instance 4 is :
+ ['sunny', 'warm', '?', 'strong', 'warm', 'same']
+
+ The hypothesis for the training instance 5 is :
+ ['sunny', 'warm', '?', 'strong', '?', '?']
+
+ The Maximally specific hypothesis for the training instance is
+['sunny', 'warm', '?', 'strong', '?', '?']
