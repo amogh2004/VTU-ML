@@ -89,10 +89,3 @@ plt.title('GMM Classification')
 
 print('The accuracy score of EM: ',sm.accuracy_score(y, y_cluster_gmm))
 print('The Confusion matrix of EM: ',sm.confusion_matrix(y, y_cluster_gmm))
-
-
-# In[ ]:
-
-
-
-
