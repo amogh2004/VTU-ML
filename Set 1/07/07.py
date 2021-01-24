@@ -97,7 +97,7 @@ p_heartdisease.update()
 m = 0
 while m == 0:
     print("\n")
-    res = bp.nodes.MultiMixture([int(input('Enter Age: y' + str(ageEnum))), int(input('Enter Gender: ' + str(genderEnum))), int(input('Enter FamilyHistory: ' + str(familyHistoryEnum))), int(input('Enter dietEnum: ' + str(dietEnum))), int(input('Enter LifeStyle: ' + str(lifeStyleEnum))), int(input('Enter Cholesterol: ' + str(cholesterolEnum)))], bp.nodes.Categorical, p_heartdisease).get_moments()[0][heartDiseaseEnum['No']]
+    res = bp.nodes.MultiMixture([int(input('Enter Age: y' + str(ageEnum))), int(input('Enter Gender: ' + str(genderEnum))), int(input('Enter FamilyHistory: ' + str(familyHistoryEnum))), int(input('Enter dietEnum: ' + str(dietEnum))), int(input('Enter LifeStyle: ' + str(lifeStyleEnum))), int(input('Enter Cholesterol: ' + str(cholesterolEnum)))], bp.nodes.Categorical, p_heartdisease).get_moments()[0][heartDiseaseEnum['Yes']]
     print("Probability(HeartDisease) = " +  str(res))
     #print(Style.RESET_ALL)
     m = int(input("Enter for Continue:0, Exit :1  "))
