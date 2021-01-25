@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# ### Step 2 : Load the inbuilt data or the csv/excel file into pandas dataframe and clean the data # In[66]:
+# Step 2 : Load the inbuilt data or the csv/excel file into pandas dataframe and clean the data # In[66]:
 from sklearn.datasets import load_iris
 data = load_iris()
 df = pd.DataFrame(data.data, columns=data.feature_names)
