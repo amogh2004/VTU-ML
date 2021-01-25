@@ -26,8 +26,8 @@ knn_classifier = KNeighborsClassifier(n_neighbors=5)
 knn_classifier.fit(x_train, y_train)
 predictions = knn_classifier.predict(x_test)
 print(predictions)
-from sklearn.metrics import accuracy_score, confusion_matrix
 
+from sklearn.metrics import accuracy_score, confusion_matrix
 print("Training accuracy Score is : ", accuracy_score(y_train, knn_classifier.predict(x_train)))
 print("Testing accuracy Score is : ", accuracy_score(y_test, knn_classifier.predict(x_test)))
 print("Training Confusion Matrix is : \n", confusion_matrix(y_train, knn_classifier.predict(x_train)))
