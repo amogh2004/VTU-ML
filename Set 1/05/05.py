@@ -1,5 +1,5 @@
-# Write a program to implement the naïve Bayesian classifier for a sample training data set
-# stored as a .CSV file. Compute the accuracy of the classifier, considering few test data sets
+# Write a program to implement the Naïve Bayesian classifier for a sample training data set
+# stored as a CSV file. Compute the accuracy of the classifier, considering few test data sets.
 
 print("\nNaive Bayes Classifier for Concept Learning Problem\n")
 
